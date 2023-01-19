@@ -1,16 +1,16 @@
-# This is for just demo for sb-deploy command
+# This is for just demo for test-deploy command
 
 ```
-git clone https://github.com/vyjith/sb-deploy-tool.git
+git clone https://github.com/vyjith/test-deploy-tool.git
 ```
 ```
-cd sb-deploy-tool
+cd test-deploy-tool
 ```
 ```
 chmod +x j.sh
 ```
 ```
-echo "alias sb-deploy='bash $(pwd)/j.sh'" >> ~/.bashrc
+echo "alias test-deploy='bash $(pwd)/j.sh'" >> ~/.bashrc
 ```
 ```
 source ~/.bashrc
@@ -24,5 +24,5 @@ aws configure
 #### Then example command is the following.
 
 ```
-sb-deploy ansiblesportsbook -it
+sb-deploy ansiblestest -it
 ```
