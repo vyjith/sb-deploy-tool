@@ -15,13 +15,13 @@ echo "alias test-deploy='bash $(pwd)/j.sh'" >> ~/.bashrc
 ```
 source ~/.bashrc
 ```
-### Configure the aws configure
+### Configure aws configure
 ```
 aws configure
 ```
 ### After this click on the view push command option on Amazon ECR and then new window will open from there, copy the first command and login.
 
-#### Then example command is the following.
+#### The execute the following command.
 
 ```
 test-deploy ansiblestest -it
