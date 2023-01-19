@@ -24,5 +24,5 @@ aws configure
 #### Then example command is the following.
 
 ```
-sb-deploy ansiblesportsbook=18.2 -it
+sb-deploy ansiblesportsbook -it
 ```
