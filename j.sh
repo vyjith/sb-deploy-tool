@@ -20,8 +20,8 @@ echo -n "If yes to continue: "
 read yn
 if [[ "$yn" =~ ^([yY][eE][sS]|[yY])$ ]]
   then
-  echo "INFO	[run][ansible-sportsbook-app] Building an image"
-  echo "INFO	[run][ansible-sportsbook-app] Done building image"
+  echo "INFO	[run][ansible-test-app] Building an image"
+  echo "INFO	[run][ansible-test-app] Done building image"
   docker container run $it --name $name --rm -p80:80 511664295570.dkr.ecr.ap-south-1.amazonaws.com/sb-tool:latest sh
 else
   echo "Exiting...."
