@@ -24,5 +24,5 @@ aws configure
 #### Then example command is the following.
 
 ```
-sb-deploy ansiblestest -it
+test-deploy ansiblestest -it
 ```
